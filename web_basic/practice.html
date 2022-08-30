@@ -140,5 +140,18 @@
                 </label>
             </p>
         </form>
+
+        <!-- form - method -->
+        <form action="http://localhost/method.php" method="post">
+            <input type="text" name="id">
+            <input type="password" name="pwd">
+            <input type="submit">
+        </form>
+
+        <!-- form - file upload -->
+        <form action="http://localhost/upload.php" method="post" enctype="multipart/form-data">
+            <input type="file">
+            <input type="submit">
+        </form>
     </body>
 </html>
